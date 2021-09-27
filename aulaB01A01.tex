@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usetheme{UEPG}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage[ddmmyyyy]{datetime}
+% Para seguir as normas da ABNT de citacao e referencias
+\usepackage[alf]{abntex2cite}
+\uselanguage{Portuguese}
+\theoremstyle{definition} \newtheorem{teorema}{Teorema}
+\theoremstyle{definition} \newtheorem{definicao}{Definição}
+\theoremstyle{plain} \newtheorem{corolario}[teorema]{Corolário}
+\theoremstyle{remark} \newtheorem{nota}{Nota}[section]
+
+\usepackage{tikz}      % Diagrams
+\usetikzlibrary{calc, shapes, backgrounds}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows,automata}
+\usepackage{amsmath, amssymb}
+\usepackage{url}       % `\url`s
+\usepackage{listings}  % Code listings
+\definecolor{mGreen}{rgb}{0,0.6,0}
+\definecolor{mGray}{rgb}{0.5,0.5,0.5}
+\definecolor{mPurple}{rgb}{0.58,0,0.82}
+\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
+
+\lstset{
+	backgroundcolor=\color{backgroundColour},   
+	commentstyle=\color{mGreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{mGray},
+	stringstyle=\color{mPurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	language=C
+}
+
+
+%% Use any fonts you like.
+\usepackage{helvet}
+
+\title[Aula B01A01]{Engenharia de Software}
+\subtitle{Engenharia de Software}
+\author{Luiz Pedro Petroski}
+\date{\today}
+\institute{\url{petroskilp@gmail.com}}
+
+\begin{document}
+
+\begin{frame}[plain,t]
+\titlepage
+\end{frame}
+\section{Seção}
+\begin{frame}{Titulo}
+	\begin{itemize}
+		\item Item 1
+		\item Item 2
+		\item Item 3
+	\end{itemize}
+\end{frame}
+
+
+
+\ThankYouFrame
+
+\end{document}
